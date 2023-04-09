@@ -1,15 +1,21 @@
 .hero {
-  padding: 80px 100px 240px;
   max-width: 100%;
   background-image: url(../../images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero-text {
-    color: white;
-}
-
 .hero-title {
   margin-bottom: 20px;
+}
+
+.hero-text-wrapper {
+  color: white;
+    padding: 100px 100px 400px;
+}
+
+.hero-text {
+  font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }

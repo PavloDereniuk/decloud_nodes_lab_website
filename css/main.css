@@ -69,8 +69,7 @@ body {
 .header-logo {
   display: flex;
   align-items: center;
-  max-width: 50px;
-  max-height: 50px;
+  width: 50px;
 }
 
 .header-list {
@@ -283,13 +282,33 @@ body {
   padding: 10px 20px 10px 20px;
 }
 
-.testnet-link {
+.testnet-link-wrapper {
+  display: flex;
+}
+
+.testnet-link-stake {
+  display: inline-block;
+  color: black;
+  padding: 14px;
+  border: 1px solid white;
+  background-color: rgb(185, 40, 40);
+  border-bottom-left-radius: 5px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.testnet-link-deploy {
   display: block;
   color: black;
   padding: 14px;
+  border: 1px solid white;
   background-color: rgb(185, 40, 40);
   border-end-end-radius: 5px;
-  border-bottom-left-radius: 5px;
+  width: 100%;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
